@@ -27,7 +27,17 @@ client.on('message', message =>{
     .setTitle('BOT INFO')
     .setDescription(`•prefix --> e!
 BOT COMMANDS
-• || e!mass || e!support || e!info || e!say || e!ping || e!serverinfo || e!restart || e!invite || e!botinfo || `)
+•
+[☆]-> cz!mass
+[☆]-> cz!steamowner
+[☆]-> cz!steamgroup 
+[☆]-> cz!owner
+[☆]-> cz!say 
+[☆]-> cz!ping 
+[☆]-> cz!serverinfo 
+[☆]-> cz!restart 
+[☆]-> cz!invite 
+[☆]-> cz!botinfo || `)
     .setColor('RANDOM')
    message.channel.sendEmbed(embed);
   }
@@ -155,9 +165,10 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'cz!owner') {
-      msg.channel.send('My owner is -> @Yonly#4995 !');
+      msg.channel.send('My owner is -> @Yonly#4995 ');
     }
   });
+
 
 client.on('guildMemberAdd', member => {
     var joinrole = member.guild.roles.find('name', '|| 𝕰lite Membru ||');
