@@ -180,7 +180,7 @@ client.on('guildMemberAdd', member => {
         .setColor('#FF000')
         .setThumbnail(memberavatar)
         .addField('✘ | Name: ', `${member}`)
-        .addField('✘ | Welcome', `**Welcome to our server of discord! do not forget to read carefully the 📃rules!**`)
+        .addField('✘ | Welcome', `**Welcome to our server of discord! do not forget to read carefully the #📃rules!**`)
         .setTimestamp()
 
         channel.sendEmbed(embed);
