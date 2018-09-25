@@ -159,7 +159,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'cz!steamgroup') {
-      msg.channel.send('The steam group is here -> ');
+      msg.channel.send('The steam group is here -> https://steamcommunity.com/groups/cold_zone !');
     }
   });
 
